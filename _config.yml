@@ -7,17 +7,20 @@
 
 # Main Page Setup
 
-title: John Doe's Portfolio # This is what shows up in the tab of the browser
+title: William Jiao's Portfolio # This is what shows up in the tab of the browser
 
 
 
 # Hero Section
-name: John Doe
-headline: headline message
+name: William Jiao
+headline: Hello, I am William Jiao! Nice to meet you! 
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  Write an awesome intro and discuss your highlights and qualification. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I am William Jiao, a current third year at UC Davis, who loves all things related to electrical engineering, especially automotive!
+  My love for engineering started when I checked out the booth for Formula Racing at UC Davis, the Davis FSAE team during orientation,
+  and I quickly fell in love with the beauty of the engineering that goes into making functioning vehicles we take for granted, from 
+  systems as large as the tractive battery to ones as small as a crash sensor. I hope to continue growing my passion for engineering as 
+  I keep increasing my book knowledge at school, and I aspire to use my accumulated knowledge and experience to change the world for the 
+  better as an engineer! 
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/avatar.jpeg
@@ -25,7 +28,7 @@ profile_image: ./assets/images/profile-image/avatar.jpeg
 
 # Link your resume
 # You can place your resume in assets/resume/{resume.pdf or add external link such as pdf saved in google drive 
-resume-url: https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing # or /assets/resume/resume.pdf
+resume-url: https://drive.google.com/file/d/1kKQw8XxC_g0etL1Lup3XlVRR_paEsz2X/view?usp=drive_link # or /assets/resume/resume.pdf
 
 
 # Set up external links - this will show up as small icons next to your name.
