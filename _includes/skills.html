@@ -1,23 +1,34 @@
 <section id="skills" class="skills-section">
-    <h2>Skills</h2>
+  <h2>Skills</h2>
+    
+  <ul class="skill-categories">
+    {% for skill_group in site.skills %}
+      <li>
+        <div class="skills-card">
+          <span class="category-label">{{ skill_group.category }}</span>
         
-    <ul class="skill-categories">
-        {% for skill in site.skills %}
-          <li>
-            <div class="skills-card">
-              <span class="category-label">{{ skill.category}}</span>
-            
-              <ul class="skills-list">
-                {% for skill in skill.tools %}
-                  <li class="skill">
-                    {{ skill }}
-                  </li>
-                {% endfor %}
-                </ul>
-            </div>
-            
-          </li> 
-        {% endfor %}
-      </ul>
+          <ul class="skills-list">
+            {% for tool in skill_group.tools %}
+              <li class="skill">
+                {% if tool.name %}
+                  <button type="button" class="skill-btn" onclick="openSkillModal('{{ tool.name | escape }}', '{{ tool.desc | escape }}')">
+                    {{ tool.name }}
+                  </button>
+                {% else %}
+                  {{ tool }}
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </li> 
+    {% endfor %}
+  </ul>
 
+  <!-- Native HTML Modal Container -->
+  <dialog id="skill-modal" class="skill-dialog">
+    <h3 id="modal-title"></h3>
+    <p id="modal-desc"></p>
+    <button type="button" onclick="document.getElementById('skill-modal').close()">Close</button>
+  </dialog>
 </section>

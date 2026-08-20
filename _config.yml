@@ -41,34 +41,27 @@ external-links:    # input only your own url slug. The icons with missing entrie
 
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
 skills:
-  - category: 3D Modeling
+  - category: PCB Design Tools
     tools:
-    - Onshape
-    - Solidworks
-    - Creo
-    - Fusion 360 (Autodesk)
-    - Blender (for complex shapes or animations)
-    - Siemens NX
-    - Inventor (Autodesk)
-    - CATIA (Dassault Systèmes)
-  - category: Prototyping
+    - name: Altium 
+      desc: "Created impedance matched ethernet PCBs for data collection and PCBs to handle high voltage power electronics for the UC Davis FSAE team"
+    - KiCad
+  - category: Prototyping Tools
     tools:
-    - SLA
-    - CNC
-    - FDM
-    - SLS
-    - DMLS
-    - PolyJet Printing
-    - Vacuum Casting
-    - Laser Cutting
-    - Water Jet Cutting
-    - Arduino / Raspberry Pi
-    - Breadboarding for circuit testing
-  - category: Design Standards / Practices
+    - RapidHarness 
+    - LTSpice
+    - SolidWorks 
+  - category: Programming Languages
     tools:
-    - GD&T ASME Y14
-    - ISO fits and tolerances
-    - PLM (PTC Windchill / Arena)   
+    - C
+    - C++
+    - MATLAB
+    - Python 
+    - Java
+    - Verilog
+  - category: Electronic Testing Tools
+    tools:
+    -  
   - category: PCB Design
     tools:
     - Altium Designer
