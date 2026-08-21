@@ -25,13 +25,14 @@
     {% endfor %}
   </ul>
 
-  <!-- Native HTML Modal Container -->
-  <dialog id="skill-modal" class="skill-dialog">
+<!-- Native HTML Modal Container -->
+<dialog id="skill-modal" class="skill-dialog">
+  <div class="modal-content">
     <h3 id="modal-title"></h3>
     <p id="modal-desc"></p>
-    <button type="button" onclick="document.getElementById('skill-modal').close()">Close</button>
-  </dialog>
-</section>
+    <button type="button" class="close-btn" onclick="document.getElementById('skill-modal').close()">Close</button>
+  </div>
+</dialog>
 
 <script>
   function openSkillModal(name, description) {
@@ -41,3 +42,4 @@
     modal.showModal();
   }
 </script>
+
