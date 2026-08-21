@@ -18,7 +18,6 @@
 html {
     scroll-behavior: smooth
 }
-
 body {
     padding: 0 50px;
     font-family: 'Poppins', sans-serif;
@@ -354,6 +353,36 @@ nav .right a:last-child:hover{
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 
                   0 2px 4px -1px rgba(0, 0, 0, 0.06);
    }
+
+   /* Make skill items look like interactive buttons */
+.skill-btn {
+  background: transparent;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.skill-btn:hover {
+  opacity: 0.8;
+}
+
+/* Style the popup modal box */
+.skill-dialog {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 24px;
+  max-width: 450px;
+  width: 90%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Dim the page background behind the open modal */
+.skill-dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 .skills-section .skill-categories .category-label {
     font-size: 20px;
