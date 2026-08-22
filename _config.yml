@@ -45,17 +45,24 @@ skills:
     tools:
     - name: Altium 
       desc: "Created impedance matched ethernet PCBs for data collection and PCBs to handle high voltage power electronics for the UC Davis FSAE team"
-    - KiCad
+    - name: KiCad
+      desc: "Can use KiCAD in addition to Altium Designer for PCB design"
   - category: Prototyping Tools
     tools:
-    - RapidHarness 
-    - LTSpice
-    - SolidWorks 
+    - name: RapidHarness 
+      desc: "Laid out LV and HV wiring harness schematic using RapidHarness, which was used in assmbling an FSAE racecar's wiring harness"
+    - name: LTSpice 
+      desc: "Simulated circuits used in PCB designs and in testing setups using LTSpice to validate electrical function"
+    - name: SolidWorks 
+      desc: "Opened and validated enclosures for low voltage electronics packaging"
   - category: Programming Languages
     tools:
-    - C
-    - C++
-    - MATLAB
+    - name: C
+      desc: "Used to program STM32 and Arduino microcontrollers to send and collect data over CAN, I2C and SPI within an FSAE racecar and in testing setups"
+    - name: C++ 
+      desc: "Programmed sorting algorithms in C++ to parse data"
+    - name: MATLAB
+      desc: "Used MATLAB to write and represent fourier transforms and to calculate systems of equations for coursework"
     - Python 
     - Java
     - Verilog
