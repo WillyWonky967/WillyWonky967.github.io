@@ -10,6 +10,7 @@ skills:
     - Altium Designer 
 main-image: 
 
+ ---
 ## High Fequency Routing 
 description: When performing high frequency routing, the main things I had to worry about in regards to preserving signal integrity and termination were impedance matching and referencing. Using the built in impedance matching tools in Altium Designer, I was able to impedance match the traces by ensuring that the differential pairs between ETH_Tx and ETH_Rx had to be matched in trace length, as well as having 100Ω differential impedance. 
 
@@ -18,6 +19,4 @@ description: Here are images of the traces for ETH_Tx and ETH_Rx.
 --- 
 
 
-
---- 
-
+---
