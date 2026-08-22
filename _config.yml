@@ -58,7 +58,7 @@ skills:
   - category: Programming Languages
     tools:
     - name: C
-        desc: "Used to program STM32 and Arduino microcontrollers to send and collect data over CAN, I2C and SPI within an FSAE racecar and in testing setups"
+      desc: "Used to program STM32 and Arduino microcontrollers to send and collect data over CAN, I2C and SPI within an FSAE racecar and in testing setups"
     - name: C++ 
       desc: "Programmed sorting algorithms in C++ to parse data"
     - name: MATLAB
