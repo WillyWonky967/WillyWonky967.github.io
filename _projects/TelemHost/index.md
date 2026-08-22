@@ -7,3 +7,6 @@ skills:
     - Impedance matching 
     - PCB Routing 
     - Altium Designer 
+main-image: 
+--- 
+
