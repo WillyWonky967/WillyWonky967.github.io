@@ -19,13 +19,50 @@ layout: wrapper
             <p>{{ page.description }}</p>
         </div>
         <div class="skills-card">
-            <h2>Skills Used</h2> 
-            <div class="skills-list">
-                {% for skill in page.skills %}
-                <span class="skill">{{ skill }}</span>    
-                {% endfor %}
-            </div>
-        </div>
+    <h2>Skills Used</h2> 
+    <div class="skills-list">
+        {% for skill in page.skills %}
+            {% if skill.name %}
+                <button type="button" class="skill-btn" 
+                        onclick="openSkillModal('{{ skill.name | escape }}', '{{ skill.desc | escape }}', '{{ skill.image | escape }}')">
+                    {{ skill.name }}
+                </button>
+            {% else %}
+                <span class="skill">{{ skill }}</span>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+<!-- Modal Popup Container -->
+<dialog id="skill-modal" class="skill-dialog">
+    <div class="modal-content">
+        <h3 id="modal-title"></h3>
+        <img id="modal-image" src="" alt="Skill Demonstration" style="display: none;" />
+        <p id="modal-desc"></p>
+        <button type="button" class="close-btn" onclick="document.getElementById('skill-modal').close()">Close</button>
+    </div>
+</dialog>
+
+<script>
+function openSkillModal(name, desc, image) {
+    const modal = document.getElementById('skill-modal');
+    const imgElement = document.getElementById('modal-image');
+    
+    document.getElementById('modal-title').textContent = name;
+    document.getElementById('modal-desc').textContent = desc;
+
+    if (image && image.trim() !== "") {
+        imgElement.src = image;
+        imgElement.style.display = "block";
+    } else {
+        imgElement.style.display = "none";
+        imgElement.src = "";
+    }
+
+    modal.showModal();
+}
+</script>
     </div>
       
     <div class="content">
