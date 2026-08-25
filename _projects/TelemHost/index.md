@@ -27,7 +27,7 @@ The TelemhHost is a PCB that processes live telemetry data
 --- 
 ## High Frequency Routing 
 During the process of high frequency routing, I had to pay close attention to maintaining a 100 ohm differential impedance between the ethernet traces to prevent EMI and signal reflection. To do this, I used the differential pair length tuning tool in Altium Designer to ensure the lengths of my signals were the same by tusing accordion and trombone patterns in my routing. 
-{% include iamge-gallery.html images="Website_Telemhost3.png" 
+{% include image-gallery.html images="Website_Telemhost3.png" 
 height="400" %}
 
 ## CAN Bus Routing 
