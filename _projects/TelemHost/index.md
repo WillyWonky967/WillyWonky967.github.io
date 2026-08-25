@@ -13,11 +13,13 @@ main-image:  /Website_Telemhost1.png
 
 --- 
 ### PCB Topology of TelemHost (Top view)
-{% include image-gallery.html images="Website_Telemhost1.jpg" height="400" %} 
+{% include image-gallery.html images="Website_Telemhost1.png" 
+height="400" %}
 This is an imgage of the topology of the TelemHost PCB as seen from the top view 
 
 ### PCB Topology of TelemHost (Rear View)
-{% include image-gallery.html images="Website_Telemhost2.jpg" height="400" %} 
+{% include image-gallery.html images="Website_Telemhost2.png" 
+height="400" %}
 This is an image of the topology of the TelemHost PCB as seen from the bottom view 
 
 --- 
