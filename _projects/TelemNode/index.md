@@ -16,5 +16,5 @@ When data is received from sensors which sample and collect data at specific fre
 
 ## Square Wave Filter Design 
 In Hall Effect sensors, the device switches rapidly switches on and off as magnetic poles move past the sensor, which produces a kind of square wave. However, the Nyquist frequency found using the methods above is not suitable for these square waves, as the cutoff frequency fitlers out all frequencies above the first harmonic of a sinusoidal wave. This is detrimental to the signal integrity of square waves produced by Hall Effect sensors, because square waves are composed of multiple odd numbered harmonics, which are odd multiples of the fundamental frequency. By getting rid of the odd harmonics which shape the square wave, the shape of the square wave ends up becoming distorted. 
-{% include image-gallery.html images="SquareWaveHarmonics.jpg" height="400" %} 
+{% include image-gallery.html images="SquareWaveHarmonics.jpg" height="500" %}
 This is a picture of how odd harmonics form square waves, with frequencies up to the third harmonic are needed to maintain the overall shape fo the wave. As a result of this, I chose to use the third harmonic as the cutoff frequency of the filter, to maintain the shape of the square wave. 
