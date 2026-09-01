@@ -9,7 +9,17 @@ skills:
   - Analog Filter Design 
 
 main-image: /project2.jpg
+--- 
+
+### TelemNode Images
+This is the 2D view of the TelemNode PCB
+{% include image-gallery.html images="Website_Telemnode1.jpg" height="500" %}
+--- 
+This is the top view of the TelemNode PCB
+{% include image-gallery.html images="Website_Telemnode2.jpg" height="500" %}
 ---
+This is the bottom view of the TelemNode PCB 
+{% include image-gallery.html images="Website_Telemnode3.jpg" height="500" %}
 
 # Analog Filter Design (Anti Aliasing Filters)
 When data is received from sensors which sample and collect data at specific frequencies, a problem that often occurs is aliasing, which occurs when the data is undersampled. Aliasing is a problem for the team's live telemetry tracking, because aliasing results in high frequencies above the Nyquist frequency masquerading as normal low frequencies, resulting in distorted data. The Nyquist frequency was obtained by dividing 1 by the response time multiplied by the percentage of the total signal received in the response time window, and I used a low pass RC filter to obtain the Nyquist frequency. However, there were still multiple considerations I had to make when designing my filters. 
