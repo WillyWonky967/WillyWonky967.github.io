@@ -52,4 +52,7 @@ This is the circuit topology of the parent strain gauge amplifier circuit
 When it came to laying out the PCB, I used a room in order to capture the layout of the strain gauge amplifier circuit configuration, and I copied the layout throughout the PCB, in order to save time on routing by replicating the same circuit that was constantly repeated. 
 
 {% include image-gallery.html images="Website_Telemnode5.png" height="500" %}
-This is an image of all the duplicates of the strain gauge amplifier room laid out on the circuit, where every clone of the room has the same identical layout. 
+This is an image of all the duplicates of the strain gauge amplifier room laid out on the PCB in 3D view, where every clone of the room has the same identical layout. 
+
+{% include image-gallery.html images="Website_Telemnode7.png" height="500" %}
+This is an image of all the dupplicates of the strain gauge amplifier room laid out on the PCB in 2D view. 
