@@ -39,7 +39,7 @@ This is a picture of how odd harmonics form square waves, with frequencies up to
 ---
 
 ## CAN Communication
-Because the purpose of the TelemNode PCB is to collect data from various sensors throughout the car such as strain gauges and wheel speed sensors, the TelemNode transmits and receives messages via the CAN bus, which is the protocol all sensors and microcontrollers on the car use to communicate with each other. When dealing with routing the CAN Bus, I had to add a CAN transciever to convert the digital CAN bus data to a differentially routed pair of signals, whcih I routed throughout the PCB to components receiving and transceiving messages on the CAN bus. 
+Because the purpose of the TelemNode PCB is to collect data from various sensors throughout the car such as strain gauges and wheel speed sensors, the TelemNode transmits and receives messages via the CAN bus, which is the protocol all sensors and microcontrollers on the car use to communicate with each other. When dealing with routing the CAN Bus, I had to add a CAN transciever to convert the differentially routed CAN signals from the CAN bus external to the PCB from the rest of the car into digital values routed into the MCU to be processed.  
 ---
 
 # PCB Design Strategies 
