@@ -67,22 +67,22 @@ skills:
       desc: "Used Python to run scripts to parse through files of data to find data values"
     - name: Java 
       desc: "General Java knowledge of Java for writing algorithms and for importing mods in Minecraft"
-    - Verilog
+    - name: Verilog 
+      desc: "Programmed a pipelined matrix multiplier using Verilog, which was for a course assignment"
   - category: Electronic Testing Tools
     tools:
-    -  
+    -  name: Oscilloscope 
+       desc: "Use oscilloscopes to view waveforms and timing of circuits during circuit debugging process"
+       name: Multimeter 
+       desc: "Measured voltages and resistances of circuit paths to check for impedance and voltages, and checked for connectivity between connections during debugging"
   - category: PCB Design
     tools:
-    - Altium Designer
-    - Altium
-    - Eagle 
-    - KiCad
+    - name: Altium Designer 
+      desc: "Created schematics and layouts for various PCBs using Altium, and used Gerber files from Altium to manufacture PCBs"
+    - name: KiCAD
+      desc: "Created PCBs using KiCAD as well, but mostly used Altium Designer"
   - category: Problem Solving / Risk Management
     tools:
-    - Root Cause Analysis (e.g., 5 Whys, Fishbone Diagram)
-    - DFMEA / PFMEA 
-    - Six Sigma methodologies
-    - Shain Red-X
 
 
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
