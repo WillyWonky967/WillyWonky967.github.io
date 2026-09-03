@@ -63,8 +63,10 @@ skills:
       desc: "Programmed sorting algorithms in C++ to parse data"
     - name: MATLAB
       desc: "Used MATLAB to write and represent fourier transforms and to calculate systems of equations for coursework"
-    - Python 
-    - Java
+    - name: Python 
+      desc: "Used Python to run scripts to parse through files of data to find data values"
+    - name: Java 
+      desc: "General Java knowledge of Java for writing algorithms and for importing mods in Minecraft"
     - Verilog
   - category: Electronic Testing Tools
     tools:
