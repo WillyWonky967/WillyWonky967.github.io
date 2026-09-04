@@ -80,7 +80,14 @@ skills:
       desc: "Created schematics and layouts for various PCBs using Altium, and used Gerber files from Altium to manufacture PCBs"
     - name: KiCAD
       desc: "Created PCBs using KiCAD as well, but mostly used Altium Designer"
-
+  - category: Development / Data Acquisition Tools 
+    tools: 
+    - name: GIT 
+      desc: "Used GIT version control to push firmware and PCB changes to Github and to Altium365, and to clone code from Github"
+    - name: UNIX Terminal
+      desc: "Used UNIX terminal to use shell scripting commands and to use GIT version control across workspaces"
+    - name: CAN
+      desc: "Used CAN bus to transmit data across car, used CAN order/ID, and message frequency to determine CAN bus load and better acquire data"
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
 formspree-key:   https://formspree.io/f/{8-digit key}
 
