@@ -1,3 +1,6 @@
+---
+---
+
 <section id="skills" class="skills-section">
   <h2>Skills</h2>
     
@@ -24,6 +27,7 @@
       </li> 
     {% endfor %}
   </ul>
+</section>
 
 <!-- Native HTML Modal Container -->
 <dialog id="skill-modal" class="skill-dialog">
@@ -34,6 +38,82 @@
   </div>
 </dialog>
 
+<!-- Native HTML Modal Container -->
+<dialog id="skill-modal" class="skill-dialog" style="
+  --theme-border: {{ site.colors.border }};
+  --theme-light-bg: {{ site.colors.light_background }};
+  --theme-text: {{ site.colors.text }};
+  --theme-highlight: {{ site.colors.highlight }};
+  --theme-bg: {{ site.colors.background }};
+  --theme-link: {{ site.colors.link }};
+">
+  <div class="modal-content">
+    <h3 id="modal-title"></h3>
+    <p id="modal-desc"></p>
+    <button type="button" class="close-btn" onclick="document.getElementById('skill-modal').close()">Close</button>
+  </div>
+</dialog>
+
+<style>
+  /* Clean, valid CSS syntax that avoids editor linter errors */
+  .skill-dialog {
+    margin: auto; /* Keeps dialog centered on screen */
+    padding: 0;
+    border: 1px solid var(--theme-border);
+    border-radius: 10px;
+    background-color: var(--theme-light-bg);
+    color: var(--theme-text);
+    max-width: 450px;
+    width: 90vw;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+  }
+
+  .skill-dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(3px);
+  }
+
+  .modal-content {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .modal-content h3 {
+    margin: 0;
+    color: var(--theme-highlight);
+    font-size: 1.3rem;
+    border-bottom: 1px solid var(--theme-border);
+    padding-bottom: 0.5rem;
+  }
+
+  .modal-content p {
+    margin: 0;
+    line-height: 1.5;
+    color: var(--theme-text);
+    font-size: 0.95rem;
+  }
+
+  .close-btn {
+    align-self: flex-end;
+    background-color: var(--theme-highlight);
+    color: var(--theme-bg);
+    border: none;
+    padding: 0.5rem 1.25rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+
+  .close-btn:hover {
+    background-color: var(--theme-link);
+  }
+</style>
+
 <script>
   function openSkillModal(name, description) {
     const modal = document.getElementById('skill-modal');
@@ -42,4 +122,3 @@
     modal.showModal();
   }
 </script>
-

@@ -72,7 +72,7 @@ skills:
     tools:
     -  name: Oscilloscope 
        desc: "Use oscilloscopes to view waveforms and timing of circuits during circuit debugging process"
-       name: Multimeter 
+    -  name: Multimeter 
        desc: "Measured voltages and resistances of circuit paths to check for impedance and voltages, and checked for connectivity between connections during debugging"
   - category: PCB Design
     tools:
