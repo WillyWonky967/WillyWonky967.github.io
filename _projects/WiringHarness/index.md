@@ -21,8 +21,6 @@ This is a picture of the wiring schematic I created using RapidHarness for the o
 ## Node Points 
 {% include image-gallery.html images="Website_WiringHarness2.png" height="500" %} 
 This is a diagram indicating the positioning of the nodes points I have placed on the car. 
-
-The nodepoints 
 ---
 
 ## Wiring Table 
