@@ -24,7 +24,8 @@ This is a diagram indicating the positioning of the nodes points I have placed o
 ---
 
 ## Wiring Table 
-
+{% include image-gallery.html images="Website_WiringHarness3.png" height="500" %} 
+This is an example from part of the wiring table for the car, with the subject in this image being taken from the connection table for the front half of the car. 
 ---
 
 ## Harness Justification
