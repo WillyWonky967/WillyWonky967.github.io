@@ -887,10 +887,18 @@ footer p {
         
          
     }
-    .post-view.image-gallery {
-        column-gap: 5px;
-        row-gap: 5px;
-      }
+    .post-view .content .image-gallery img {
+    max-height: var(--gallery-height, 2000px); 
+    height: auto;
+    width: auto; 
+    max-width: 100%;
+    object-fit: contain;
+    align-self: flex-start;
+    }
+    .post-view .image-gallery {
+    column-gap: 5px;
+    row-gap: 5px;
+}
       
     .video-container {
         margin:0 auto;
