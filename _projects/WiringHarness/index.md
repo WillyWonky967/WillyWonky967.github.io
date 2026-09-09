@@ -17,9 +17,9 @@ main-image: /Website_WiringHarness1.png
 {% include image-gallery.html images="Website_WiringHarness1.png" height="500" %}
 This is a picture of the wiring schematic I created using RapidHarness for the overall wiring harness. 
 <br>
+
 When designing the schematic, the first thing that I considered was the location of the main electrical connections throughout the car, such as where the main PCBs were as well as things like the fusebox, hv and lv batteries, global ground point and all the components in the shutdown circuit. 
 
-As a result 
 ---
 
 ## Node Points 
