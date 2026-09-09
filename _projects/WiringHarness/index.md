@@ -14,7 +14,7 @@ main-image: /Website_WiringHarness1.png
 --- 
 
 ### Wiring Harness Schematic 
-{% include image-gallery.html images="Website_WiringHarness1.png" height="1000" %}
+{% include image-gallery.html images="Website_WiringHarness1.png" height="2000" %}
 This is a picture of the wiring schematic I created using RapidHarness for the overall wiring harness. 
 <br>
 
@@ -32,6 +32,7 @@ The locations of the node points were determined by the locations of important e
 <br> 
 
 After placing down and labeling the node points, I measured the lengths between the node points, which were used to calculate the lengths of wire for the electrical connections of the car. The measurements were highly accurate, with several inches given for slack. 
+
 ---
 
 ## Wiring Table 
