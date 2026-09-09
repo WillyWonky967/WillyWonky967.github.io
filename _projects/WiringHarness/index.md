@@ -60,6 +60,6 @@ This is an example from part of the wiring table for the car, with the subject i
 ---
 
 ## Harness Justification
-
+By using my plans for the wiring harness, we were able to complete the assembly of the wiring harness two months in advance, whcih allocated us more time for debugging the harness and for working on setting up more things around the car. 
 ---
 
