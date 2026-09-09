@@ -14,7 +14,7 @@ main-image: /Website_WiringHarness1.png
 --- 
 
 ### Wiring Harness Schematic 
-{% include image-gallery.html images="Website_WiringHarness1.png" height="2000" %}
+{% include image-gallery.html images="Website_WiringHarness1.png" height="1000" %}
 This is a picture of the wiring schematic I created using RapidHarness for the overall wiring harness. 
 <br>
 
@@ -35,12 +35,12 @@ After placing down and labeling the node points, I measured the lengths between 
 
 ---
 
-# Images of the Wiring Harness In Construction  
+## Images of the Wiring Harness In Construction  
 {% include image-gallery.html images="Website_WiringHarness8.jpg" height="500" %} 
 This is a image of the wiring harness being constructed on the ground before being attached to the car. When aseembling the harness, we chose to assemble the connections on the ground first using an outline of the node point lengths on the actual car, before mounting the assembled harness in the end. Through this, we were able to work on the wiring harness before the chassis was done being assembled, and this helped us meet our assembly deadline two months in advance. 
 ---
 
-# Images of the Wiring Harness on the Car 
+## Images of the Wiring Harness on the Car 
 {% include image-gallery.html images="Website_WiringHarness4.jpg" height="500" %} 
 This is an imgage of part of the HVI, or the interface between the HV and LV system on the car during the Michigan 2026 Competition. The wires connecting the status LEDs on the top of the car are shown disconnected in this image, as the team was busy working on reassembling the system after a system failure. 
 ---
