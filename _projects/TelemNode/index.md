@@ -14,15 +14,14 @@ main-image: /Website_Telemnode2.png
 --- 
 
 ### TelemNode Images
-This is the 2D view of the TelemNode PCB
 {% include image-gallery.html images="Website_Telemnode1.png" height="500" %}
+This is the 2D view of the TelemNode PCB
 --- 
-This is the top view of the TelemNode PCB
 {% include image-gallery.html images="Website_Telemnode2.png" height="500" %}
+This is the top view of the TelemNode PCB
 ---
-This is the bottom view of the TelemNode PCB 
 {% include image-gallery.html images="Website_Telemnode3.png" height="500" %}
-
+This is the bottom view of the TelemNode PCB 
 ---
 
 ## Analog Filter Design (Anti Aliasing Filters)

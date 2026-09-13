@@ -11,3 +11,11 @@ skills:
 
 main-image: /Website_CoolingRig1.png
 --- 
+
+## Cooling Testing Rig Images 
+{% include image-gallery.html images="Website_CoolingRig1.png" height="500" %}
+This is the overall image of what the cooling loop looks like, with the its fans, pumps, heater, water collection system, sensors, tubing, and electronics. 
+--- 
+{% include image-gallery.html images="Website_CoolingRig2.png" height="500" %}
+A closer up look at some of the electronics, notably the arduino and the attached SD card reader meant for data collection and a breadboard for the electronic circuits for the temperature and pressure sensors. 
+--- 
