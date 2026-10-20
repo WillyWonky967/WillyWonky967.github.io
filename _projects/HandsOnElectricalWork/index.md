@@ -7,5 +7,5 @@ skills:
     - Oscilloscope 
     - Network Analyzer
 
-main-image: /Website_HVI1.png 
+main-image: 
 --- 
